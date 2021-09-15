@@ -1,0 +1,47 @@
+H1{
+    border: 1px solid green;
+    color: hotpink;
+}
+body{
+    background-color: blanchedalmond;
+
+}
+@media screen and (max-width: 300px){
+    H1{
+        border: 2px solid green ;
+        color:black;
+    }   
+    body{
+        background-color: blue;
+    }
+
+    
+}
+@media screen and (min-width:301px) and (max-width:600px){
+    H1{
+        border: 2px solid red ;
+        color:aqua;
+    }   
+    body{
+        background-color: magenta;
+    }
+}
+
+@media screen and (min-width:601) and (max-width:1200px){
+    H1{
+        border: 3px solid yellow ;
+        color:chocolate;
+    }   
+    body{
+        background-color:azure;
+    }
+}
+@media screen and (max-width: 1201x){
+    H1{
+        border: 4px purple;
+        color:hotpink;
+    }   
+    body{
+        background-color:cornflowerblue;
+    }
+}
